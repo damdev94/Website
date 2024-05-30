@@ -3,7 +3,10 @@ import '../css/pages/folio.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faSass, faNode, faJs } from '@fortawesome/free-brands-svg-icons'
 import CardProject from '../components/cardProject'
-import image from '../images/cottage_141426904.jpg'
+import watchListImage from '../images/watch-list.jpg'
+import rbnbImage from '../images/rbnb.png'
+import devjobsImage from '../images/devjobs.png'
+import coutriesImage from '../images/countries.png'
 import rorLogo from '../images/rails-1.svg'
 import reduxLogo from '../images/redux.svg'
 import mongoLogo from '../images/mongodb-ar21.svg'
@@ -24,59 +27,31 @@ function Folio() {
 
       <div className='list-projects'>
         <CardProject
-          image= { image }
+          image= { watchListImage }
           react= {reactLogo}
           scss={scssLogo}
           node={nodeLogo}
-          javaScript={javaScipt}
-          ror= {rorLogo}
-          reduxLogo={reduxLogo}
           mongoLogo={mongoLogo}
         />
 
         <CardProject
-          image= { image }
-          react= {reactLogo}
+          image= { rbnbImage }
           scss={scssLogo}
-          node={nodeLogo}
           javaScript={javaScipt}
           ror= {rorLogo}
-          reduxLogo={reduxLogo}
-          mongoLogo={mongoLogo}
         />
 
         <CardProject
-          image= { image }
+          image= { coutriesImage }
           react= {reactLogo}
-          scss={scssLogo}
-          node={nodeLogo}
-          javaScript={javaScipt}
-          ror= {rorLogo}
           reduxLogo={reduxLogo}
-          mongoLogo={mongoLogo}
         />
 
         <CardProject
-          image= { image }
+          image= { devjobsImage }
           react= {reactLogo}
-          scss={scssLogo}
-          node={nodeLogo}
-          javaScript={javaScipt}
-          ror= {rorLogo}
-          reduxLogo={reduxLogo}
-          mongoLogo={mongoLogo}
         />
 
-        <CardProject
-          image= { image }
-          react= {reactLogo}
-          scss={scssLogo}
-          node={nodeLogo}
-          javaScript={javaScipt}
-          ror= {rorLogo}
-          reduxLogo={reduxLogo}
-          mongoLogo={mongoLogo}
-        />
       </div>
     </div>
   )
