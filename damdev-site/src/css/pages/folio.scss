@@ -1,0 +1,46 @@
+.folio-container {
+  .presentation {
+    color: gainsboro;
+    padding: 5% 0 5% 5%;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .list-projects {
+    margin: 0 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 20px;
+    place-content: center;
+    place-items: center;
+    margin-bottom: 50px;
+  }
+}
+
+// logos
+
+.logo {
+  font-size: 30px;
+}
+
+.reactLogo {
+  color: rgb(62, 62, 255);
+}
+
+.scssLogo {
+  color: rgb(131, 50, 89);
+}
+
+.nodeLogo {
+  color: green;
+}
+
+.javaScript {
+  color: rgb(238, 210, 48);
+}
