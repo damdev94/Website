@@ -21,35 +21,51 @@ function Folio() {
   return (
     <div className='folio-container'>
     <div className="presentation">
-      <h2>Portfolio</h2>
+      <h2 className='folio-title'>Portfolio</h2>
       <p>Vous trouverez ici, quelques une des mes créations.</p>
     </div>
 
       <div className='list-projects'>
         <CardProject
+          link="https://watch-listbydamdev94.netlify.app/lists"
+          title= 'Watch-List'
           image= { watchListImage }
           react= {reactLogo}
           scss={scssLogo}
           node={nodeLogo}
           mongoLogo={mongoLogo}
+          githubLink="https://github.com/damdev94/Watch-List"
+          description="Application de création de listes de films. Version ordinateur uniquement."
         />
 
         <CardProject
+          link="https://airbnb-inklooo-5fdd8cc40bd2.herokuapp.com/"
+          title='CottageBNB'
           image= { rbnbImage }
           scss={scssLogo}
           javaScript={javaScipt}
           ror= {rorLogo}
+          githubLink="https://github.com/Inklooo/CLONE_AIRBNB"
+          description="Un clone d'Airbnb réalisé en équipe avec Ruby on Rails. Version ordinateur seulement"
         />
 
         <CardProject
+          link="https://countriesbydamdev94.netlify.app/"
+          title='Countries-API'
           image= { coutriesImage }
           react= {reactLogo}
           reduxLogo={reduxLogo}
+          githubLink="https://github.com/damdev94/Countries-API"
+          description="Annuaire des Pays du monde avec filtres et darkmode. Responsive"
         />
 
         <CardProject
+          link="https://devjobsbydamdev94.netlify.app/"
+          title='Devjobs'
           image= { devjobsImage }
           react= {reactLogo}
+          githubLink="https://github.com/damdev94/DevJobs-REACT"
+          description="Annuaire d'emploi avec filtres, darkmode et localstorage. Responsive"
         />
 
       </div>

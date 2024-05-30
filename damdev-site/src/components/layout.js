@@ -11,9 +11,9 @@ function Layout() {
         </div>
         <div className="link-list">
 
-            <Link>BIENVENUE</Link>
-            <Link>TECHNOLOGIES</Link>
-            <Link>PORTFOLIO</Link>
+            <Link to='/'>BIENVENUE</Link>
+            <Link to='/technologies'>TECHNOLOGIES</Link>
+            <Link to='/folio'>PORTFOLIO</Link>
             <Link>À PROPOS</Link>
             <Link>CONTACT</Link>
 
