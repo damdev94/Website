@@ -4,6 +4,8 @@ import Layout from './components/layout';
 import Folio from './pages/folio'
 import Home from './pages/home';
 import Technologies from './pages/technologies'
+import Apropos from './pages/aPropos';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route path='/' element= {<Home />} />
           <Route path='technologies' element= {<Technologies />} />
           <Route path='folio' element= {<Folio />} />
+          <Route path='apropos' element= {<Apropos />} />
+          <Route path='Contact' element= {<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

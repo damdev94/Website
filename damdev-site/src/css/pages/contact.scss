@@ -1,0 +1,19 @@
+.contact-container {
+  .presentation {
+    color: gainsboro;
+    padding: 5% 0 5% 5%;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .contact-title {
+    text-decoration: underline rgba(193, 136, 69, 1);
+    text-underline-offset: 8px;
+  }
+}

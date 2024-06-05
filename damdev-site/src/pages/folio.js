@@ -46,7 +46,7 @@ function Folio() {
           javaScript={javaScipt}
           ror= {rorLogo}
           githubLink="https://github.com/Inklooo/CLONE_AIRBNB"
-          description="Un clone d'Airbnb réalisé en équipe avec Ruby on Rails. Version ordinateur seulement"
+          description="Un clone d'Airbnb réalisé en équipe avec Ruby on Rails. Version ordinateur uniquement."
         />
 
         <CardProject

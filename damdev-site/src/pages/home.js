@@ -35,7 +35,7 @@ function Home() {
     if (isH1Complete) {
       const p = pRef.current;
       p.style.display = "inline-block";
-      typeEffect(p, 75);
+      typeEffect(p, 50);
     }
   }, [isH1Complete]);
 

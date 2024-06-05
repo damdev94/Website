@@ -1,0 +1,43 @@
+.apropos-container {
+  .presentation {
+    color: gainsboro;
+    padding: 5% 0 5% 5%;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .apropos-title {
+    text-decoration: underline rgba(193, 136, 69, 1);
+    text-underline-offset: 8px;
+  }
+
+  .apropos-content {
+    width: 70%;
+    margin: 0 auto;
+    color: gainsboro;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+
+}
