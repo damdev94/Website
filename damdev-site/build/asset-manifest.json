@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.66743a5f.css",
+    "main.js": "/static/js/main.f0e4a51e.js",
+    "static/media/rbnb.png": "/static/media/rbnb.d28706e15dfa9b189a79.png",
+    "static/media/sl_031420_28950_10.jpg": "/static/media/sl_031420_28950_10.0172d1898fa4de6dc10c.jpg",
+    "static/media/logo-transparent-png.png": "/static/media/logo-transparent-png.8ef7ce2c46b600154d61.png",
+    "static/media/countries.png": "/static/media/countries.c8fc7116464d7ccc05ab.png",
+    "static/media/watch-list.jpg": "/static/media/watch-list.76bdc08035833b21453e.jpg",
+    "static/media/devjobs.png": "/static/media/devjobs.8aa71d0e5e00f68298ef.png",
+    "static/media/mongodb-ar21.svg": "/static/media/mongodb-ar21.b508609b24c1a2bc58576411df58bb4b.svg",
+    "static/media/nodejs-1.svg": "/static/media/nodejs-1.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
+    "static/media/postman.svg": "/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
+    "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/react-2.svg": "/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/bootstrap-svgrepo-com.svg": "/static/media/bootstrap-svgrepo-com.93fe84041cc1b588f15c332248529333.svg",
+    "static/media/rails-1.svg": "/static/media/rails-1.05656c97e3e19a518d8d8543ab0b3896.svg",
+    "static/media/insomnia-svgrepo-com.svg": "/static/media/insomnia-svgrepo-com.2ed47b2bf3143f866d43134a90250859.svg",
+    "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/mongodb-icon-1.svg": "/static/media/mongodb-icon-1.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/logo-javascript.svg": "/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/git-icon-logo-svgrepo-com.svg": "/static/media/git-icon-logo-svgrepo-com.e91eb163f73eebdbc665d8748b36a8e4.svg",
+    "static/media/github-icon-2.svg": "/static/media/github-icon-2.74d13353bde36d2dde5b52360f829273.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.f8a59847e765256ccc3cf1d29481131c.svg",
+    "index.html": "/index.html",
+    "static/media/visual-studio-code-1.svg": "/static/media/visual-studio-code-1.b8b1e001813039750e6c05c236ab0d46.svg",
+    "static/media/trello.svg": "/static/media/trello.4eaa2d02b5044685d3a4437845d5446b.svg",
+    "static/media/heroku-4.svg": "/static/media/heroku-4.b7e7f910d905c15ac7d6cca770ba02b0.svg",
+    "main.66743a5f.css.map": "/static/css/main.66743a5f.css.map",
+    "main.f0e4a51e.js.map": "/static/js/main.f0e4a51e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66743a5f.css",
+    "static/js/main.f0e4a51e.js"
+  ]
+}

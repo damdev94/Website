@@ -27,7 +27,7 @@ function Folio() {
 
       <div className='list-projects'>
         <CardProject
-          link="https://watch-listbydamdev94.netlify.app/lists"
+          link="https://watch-listbydamdev94.netlify.app"
           title= 'Watch-List'
           image= { watchListImage }
           react= {reactLogo}
@@ -65,6 +65,7 @@ function Folio() {
           image= { devjobsImage }
           react= {reactLogo}
           githubLink="https://github.com/damdev94/DevJobs-REACT"
+          onClick={() => window.open("https://countriesbydamdev94.netlify.app/", "_blank")}
           description="Annuaire d'emploi avec filtres, darkmode et localstorage. Responsive"
         />
 
