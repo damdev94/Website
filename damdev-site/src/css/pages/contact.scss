@@ -17,3 +17,11 @@
     text-underline-offset: 8px;
   }
 }
+
+@media (max-width: 600px) {
+  .contact-container {
+    .contact-title {
+      margin-top: 60px;
+    }
+  }
+}

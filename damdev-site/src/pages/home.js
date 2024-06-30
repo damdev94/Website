@@ -44,8 +44,8 @@ function Home() {
       <div className="text">
         <div id="table">
           <div id="centeralign">
-            <h1 ref={h1Ref}>Bienvenue sur mon site !</h1>
-            <p ref={pRef} style={{ display: 'none' }}>
+            <h1 className='home-title' ref={h1Ref}>Bienvenue sur mon site !</h1>
+            <p className='home-text' ref={pRef} style={{ display: 'none' }}>
               Vous êtes actuellement dans le menu principal.
               Pour en savoir plus sur moi, veuillez naviguer sur le menu de votre choix.
             </p>

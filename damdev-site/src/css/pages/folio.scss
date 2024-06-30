@@ -49,3 +49,19 @@
 .javaScript {
   color: rgb(238, 210, 48);
 }
+
+@media (max-width: 600px) {
+  .folio-container {
+    .list-projects {
+      margin: 0;
+      display: block;
+    }
+    .card-project {
+      width: 90%;
+      margin: 0 auto 30px auto;
+    }
+    .folio-title {
+      margin-top: 60px;
+    }
+  }
+}

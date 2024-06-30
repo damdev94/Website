@@ -1,13 +1,16 @@
 .layout {
   display: flex;
 
+  .burger {
+    display: none;
+  }
+
   .title {
+    height: 30% !important;
     img{
-      margin-top: 20px;
       background-color: rgb(11, 4, 66);
-      padding: 10px;
-      width: 80px;
-      height: 80px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
     }
   }
@@ -34,15 +37,17 @@
     }
 
     .link-list {
-      height: 80%;
+      height: 70%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
 
         a {
-          font-size: 24px;
-          font-weight: 500;
+          font-family: "Patrick Hand", cursive;
+          font-size: 22px;
+          font-weight: 600;
+          font-style: normal;
           padding: 5px;
           text-decoration: none;
           color: inherit;
@@ -81,4 +86,48 @@
     min-height: 100vh;
     height: 100%;
   }
+}
+
+@media (max-width: 600px) {
+  .layout {
+    position: relative;
+    display: block;
+
+    .burger {
+      display: block;
+      font-size: 40px;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      color: rgb(193, 136, 69);
+      z-index: 1;
+    }
+
+    .sidebar {
+      display: none;
+      width: 100%;
+      position: fixed;
+    }
+    .sidebar-open {
+      display: block;
+    }
+
+    .content {
+      width: 100%;
+      .text {
+        width: 90%;
+      }
+      .home-container {
+        align-items: start;
+        .home-title {
+          margin-top: 60%;
+          margin-bottom: 20%;
+        }
+        .home-text {
+          width: 100%;
+        }
+      }
+    }
+  }
+
 }

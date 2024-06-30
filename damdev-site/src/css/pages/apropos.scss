@@ -39,5 +39,19 @@
       font-weight: 500;
     }
   }
+}
 
+@media (max-width: 600px) {
+  .apropos-container {
+    .apropos-title {
+      margin-top: 60px;
+    }
+    .apropos-content {
+      width: 90%;
+
+      h3 {
+        text-align: center;
+      }
+    }
+  }
 }

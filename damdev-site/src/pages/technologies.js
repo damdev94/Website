@@ -24,7 +24,7 @@ function Technoligogies() {
 
   const rubyLogo = <img src={ruby} alt='ruby' width='60px' />
   const reduxLogo = <img src={redux} alt='redux' width='50px' />
-  const jsLogo = <img src={js} alt='redux' width='50px' style={{ paddingLeft: '10px' }}/>
+  const jsLogo = <img src={js} alt='redux' width='50px' />
   const reactLogo = <img src={react} alt='redux' width='50px' />
   const mongoLogo = <img src={mongo} alt='redux' width='50px' />
   const expressLogo = <img src={express} alt='redux' width='50px' className='expressLogo' style={{ paddingLeft: '10px' }}/>

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faSass, faNode, faJs } from '@fortawesome/free-brands-svg-icons'
 import CardProject from '../components/cardProject'
 import watchListImage from '../images/watch-list.jpg'
+import ecotrackerImage from '../images/ecotracker.png'
 import rbnbImage from '../images/rbnb.png'
 import devjobsImage from '../images/devjobs.png'
 import coutriesImage from '../images/countries.png'
@@ -26,6 +27,17 @@ function Folio() {
     </div>
 
       <div className='list-projects'>
+        <CardProject
+          link="https://ecotracker-806ded6e78fc.herokuapp.com/"
+          title= 'EcoTracker'
+          image= { ecotrackerImage }
+          scss={scssLogo}
+          javaScript={javaScipt}
+          ror= {rorLogo}
+          githubLink="https://github.com/damdev94/ecotraker"
+          description="Une application réalisée en équipe permettant d'estimer son empreinte carbone. Mobile uniquement."
+        />
+
         <CardProject
           link="https://watch-listbydamdev94.netlify.app"
           title= 'Watch-List'
