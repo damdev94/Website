@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import '../css/pages/technologies.scss'
 import ruby from '../images/icons8-ruby-48.png'
 import redux from '../images/redux.svg'
@@ -20,7 +21,7 @@ import bootstrap from '../images/bootstrap-svgrepo-com.svg'
 import insomnia from '../images/insomnia-svgrepo-com.svg'
 
 
-function Technoligogies() {
+function Technoligogies({pageVariants}) {
 
   const rubyLogo = <img src={ruby} alt='ruby' width='60px' />
   const reduxLogo = <img src={redux} alt='redux' width='50px' />
@@ -41,15 +42,21 @@ function Technoligogies() {
   const bootstrapLogo = <img src={bootstrap} alt='redux' width='50px' />
   const insomniaLogo = <img src={insomnia} alt='redux' width='50px' />
 
+  const scaleVariants = {
+    initial: { scale: 0.5, opacity: 0 },
+    animate: { scale: 1, opacity: 1, transition: { duration: 1 } },
+    exit: { scale: 0.5, opacity: 0, transition: { duration: 1 } },
+  };
+
 
   return (
-    <div className='technologies-container'>
+    <motion.div className='technologies-container'initial="initial" animate="animate" exit="exit" variants={pageVariants}>
       <div className="technologies-presentation">
         <h2 className='technologies-title'>Technologies</h2>
         <p>Voici ce que j'ai pu utiliser dans mes projets jusqu'à présent.</p>
       </div>
 
-      <div className="technologies-cadre box">
+      <motion.div initial="initial" animate="animate" exit="exit" variants={scaleVariants} className="technologies-cadre box">
         <div className="content-cadre">
           <div className="technologies">
             <h3>Technologies</h3>
@@ -136,8 +143,8 @@ function Technoligogies() {
           </div>
         </div>
 
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   )
 }
 

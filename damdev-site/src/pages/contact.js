@@ -1,10 +1,11 @@
 import React from 'react'
 import '../css/pages/contact.scss'
 import ContactCard from '../components/contact-card'
+import { motion } from 'framer-motion'
 
-function Contact() {
+function Contact({pageVariants}) {
   return (
-    <div className='contact-container'>
+    <motion.div initial="initial" animate="animate" exit="exit" variants={pageVariants} className='contact-container'>
       <div className="presentation">
         <h2 className='contact-title'>Contact</h2>
         <p>Vous souhaitez me contacter ?</p>
@@ -12,7 +13,7 @@ function Contact() {
       <div className="contact-content">
         <ContactCard />
       </div>
-    </div>
+    </motion.div>
   )
 }
 

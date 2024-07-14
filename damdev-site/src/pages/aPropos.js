@@ -1,14 +1,22 @@
 import React from 'react'
 import '../css/pages/apropos.scss'
+import { motion } from 'framer-motion';
 
-function Apropos() {
+function Apropos({pageVariants}) {
+
+  const slideVariants = {
+    initial: { x: 100, opacity: 0 },
+    animate: { x: 0, opacity: 1, transition: { duration: 1 } },
+    exit: { x: -100, opacity: 0, transition: { duration: 1 } },
+  };
+
   return (
-    <div className='apropos-container'>
+    <motion.div initial="initial" animate="animate" exit="exit" variants={pageVariants} className='apropos-container'>
       <div className="presentation">
         <h2 className='apropos-title'>À propos</h2>
         <p>Tout savoir sur mon parcours.</p>
       </div>
-      <div className="apropos-content">
+      <motion.div  initial="initial" animate="animate" exit="exit" variants={slideVariants} className="apropos-content">
         <h2>Parcours</h2>
 
         <h3>Apprentissage autodidacte</h3>
@@ -23,8 +31,8 @@ function Apropos() {
 
         <h3>Fullstack</h3>
         <p>Étant familier avec JavaScript, j'ai appris à mettre en place un back-end avec ce même langage. J'ai réalisé une application en utilisant le stack MERN (MongoDB, Express, React, Node.js) avec une architecture MVC pour tester et appliquer ces nouvelles technologies. La réalisation de projets avec le framework Ruby on Rails m’a également beaucoup plu, car elle m’a permis de découvrir une approche différente dans la création de projets. Pour la partie front-end, j’éprouve un grand intérêt pour la bibliothèque React, avec laquelle j’ai réalisé plusieurs projets.</p>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   )
 }
 

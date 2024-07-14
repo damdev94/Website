@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc8a609a.css",
-    "main.js": "/static/js/main.7bb61692.js",
+    "main.css": "/static/css/main.83718e56.css",
+    "main.js": "/static/js/main.2d040c82.js",
     "static/media/rbnb.png": "/static/media/rbnb.d28706e15dfa9b189a79.png",
     "static/media/sl_031420_28950_10.jpg": "/static/media/sl_031420_28950_10.a96b553addcf13fcad93.jpg",
     "static/media/Damien1.jpeg": "/static/media/Damien1.85fb6f819ee8db426250.jpeg",
     "static/media/ecotracker.png": "/static/media/ecotracker.b877830dec2aeb23decc.png",
     "static/media/countries.png": "/static/media/countries.c8fc7116464d7ccc05ab.png",
+    "static/media/chatGroup.png": "/static/media/chatGroup.443483ad4cca7d77612d.png",
     "static/media/watch-list.jpg": "/static/media/watch-list.76bdc08035833b21453e.jpg",
     "static/media/devjobs.png": "/static/media/devjobs.8aa71d0e5e00f68298ef.png",
     "static/media/mongodb-ar21.svg": "/static/media/mongodb-ar21.b508609b24c1a2bc58576411df58bb4b.svg",
@@ -27,11 +28,11 @@
     "static/media/visual-studio-code-1.svg": "/static/media/visual-studio-code-1.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/trello.svg": "/static/media/trello.4eaa2d02b5044685d3a4437845d5446b.svg",
     "static/media/heroku-4.svg": "/static/media/heroku-4.b7e7f910d905c15ac7d6cca770ba02b0.svg",
-    "main.dc8a609a.css.map": "/static/css/main.dc8a609a.css.map",
-    "main.7bb61692.js.map": "/static/js/main.7bb61692.js.map"
+    "main.83718e56.css.map": "/static/css/main.83718e56.css.map",
+    "main.2d040c82.js.map": "/static/js/main.2d040c82.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc8a609a.css",
-    "static/js/main.7bb61692.js"
+    "static/css/main.83718e56.css",
+    "static/js/main.2d040c82.js"
   ]
 }

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion'
 import '../css/pages/home.scss';
 
-function Home() {
+function Home(pageVariants) {
   const h1Ref = useRef(null);
   const pRef = useRef(null);
   const [isH1Complete, setIsH1Complete] = useState(false);
@@ -40,7 +41,7 @@ function Home() {
   }, [isH1Complete]);
 
   return (
-    <div className='home-container'>
+    <motion.div className='home-container' initial="initial" animate="animate" exit="exit" variants={pageVariants}>
       <div className="text">
         <div id="table">
           <div id="centeralign">
@@ -52,7 +53,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
