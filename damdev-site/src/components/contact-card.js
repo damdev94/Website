@@ -14,7 +14,7 @@ function ContactCard() {
           <Link to='https://www.linkedin.com/in/damien-viel-0a214b2a6/'><FontAwesomeIcon icon={faLinkedin} /></Link>
         </div>
       <h4>Email : damiendp94@gmail.com</h4>
-      <h4>Tél : (263) 770-7917 </h4>
+      <h4>Tél : 06 64 00 10 59</h4>
     </div>
   )
 }

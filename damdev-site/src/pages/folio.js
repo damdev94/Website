@@ -7,6 +7,7 @@ import CardProject from '../components/cardProject'
 import watchListImage from '../images/watch-list.jpg'
 import ecotrackerImage from '../images/ecotracker.png'
 import chatGroupImage from '../images/chatGroup.png'
+import lightkitchImage from '../images/capture_ecran_lightkitch.png'
 import rbnbImage from '../images/rbnb.png'
 import devjobsImage from '../images/devjobs.png'
 import coutriesImage from '../images/countries.png'
@@ -40,11 +41,30 @@ function Folio({pageVariants}) {
       </div>
 
       <div className='list-projects'>
+
+      <motion.div
+          variants={cardVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <CardProject
+            link="https://lightkitch.fr"
+            title='Lightkitch Website'
+            image={lightkitchImage}
+            react={reactLogo}
+            scss={scssLogo}
+            githubLink="https://github.com/damdev94/LightKitch"
+            description="Création d'un site web responsive pour l'entreprise Light Kitch. Responsive."
+          />
+
+        </motion.div>
+
         <motion.div
           variants={cardVariants}
           initial="hidden"
           animate="visible"
         >
+
           <CardProject
             link="https://ecotracker-806ded6e78fc.herokuapp.com/"
             title='EcoTracker'

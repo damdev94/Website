@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.83718e56.css",
-    "main.js": "/static/js/main.2d040c82.js",
+    "main.js": "/static/js/main.7dc70c67.js",
     "static/media/rbnb.png": "/static/media/rbnb.d28706e15dfa9b189a79.png",
     "static/media/sl_031420_28950_10.jpg": "/static/media/sl_031420_28950_10.a96b553addcf13fcad93.jpg",
     "static/media/Damien1.jpeg": "/static/media/Damien1.85fb6f819ee8db426250.jpeg",
@@ -13,7 +13,7 @@
     "static/media/mongodb-ar21.svg": "/static/media/mongodb-ar21.b508609b24c1a2bc58576411df58bb4b.svg",
     "static/media/nodejs-1.svg": "/static/media/nodejs-1.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/postman.svg": "/static/media/postman.e65afafee644ce9fe8a727d01b403189.svg",
-    "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/java-svgrepo-com.svg": "/static/media/java-svgrepo-com.7852cbfaa72efef9ac05b12844e8c17f.svg",
     "static/media/react-2.svg": "/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/bootstrap-svgrepo-com.svg": "/static/media/bootstrap-svgrepo-com.93fe84041cc1b588f15c332248529333.svg",
     "static/media/rails-1.svg": "/static/media/rails-1.05656c97e3e19a518d8d8543ab0b3896.svg",
@@ -25,14 +25,15 @@
     "static/media/git-icon-logo-svgrepo-com.svg": "/static/media/git-icon-logo-svgrepo-com.e91eb163f73eebdbc665d8748b36a8e4.svg",
     "static/media/github-icon-2.svg": "/static/media/github-icon-2.74d13353bde36d2dde5b52360f829273.svg",
     "static/media/figma-icon.svg": "/static/media/figma-icon.f8a59847e765256ccc3cf1d29481131c.svg",
+    "static/media/springio-icon.svg": "/static/media/springio-icon.d333f33caee4cd8f3993a548646c1852.svg",
     "static/media/visual-studio-code-1.svg": "/static/media/visual-studio-code-1.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/trello.svg": "/static/media/trello.4eaa2d02b5044685d3a4437845d5446b.svg",
     "static/media/heroku-4.svg": "/static/media/heroku-4.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "main.83718e56.css.map": "/static/css/main.83718e56.css.map",
-    "main.2d040c82.js.map": "/static/js/main.2d040c82.js.map"
+    "main.7dc70c67.js.map": "/static/js/main.7dc70c67.js.map"
   },
   "entrypoints": [
     "static/css/main.83718e56.css",
-    "static/js/main.2d040c82.js"
+    "static/js/main.7dc70c67.js"
   ]
 }
